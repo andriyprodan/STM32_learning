@@ -73,7 +73,8 @@ __attribute__((weak)) int _write(int file, char *ptr, int len)
 #include <stdio.h>
 int main() {
     printf("Hello World\n");
-    return 0;
+    /* Loop forever */
+	for(;;);
 }
 ```
 
