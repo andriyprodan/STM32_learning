@@ -11,5 +11,3 @@ arm-none-eabi-objdump.exe -d <file>.elf
 
 ## Для чого потрібно використовувати disassembly?
 Ми можемо використовувати функцію дебагу для відлагодження коду assembly, можна ставити breakpoints на кожній інструкії assembly.
-
-https://noodlemagazine.com/watch/-226607731_456239923
