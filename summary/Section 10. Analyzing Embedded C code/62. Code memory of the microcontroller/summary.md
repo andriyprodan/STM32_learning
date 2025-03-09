@@ -1,0 +1,2 @@
+# What is a Microcontroller
+Microcontroller(MCU) is a small computer system on a single chip. A typical microcontroller includes a processor, volatile and non-volatile memories, input/output(I/O) pins, peripherals, clock, bus interfaces on a single chip.
