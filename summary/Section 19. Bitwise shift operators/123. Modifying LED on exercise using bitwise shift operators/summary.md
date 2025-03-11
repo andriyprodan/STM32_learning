@@ -9,7 +9,7 @@ int main(void) {
     uint32_t *pPortDOutReg = (uint32_t *)0x40020C14;
 
     // 1. Enable the clock for GPIOD peripheral, set 3rd bit to 1
-    *pClkCtrlReg |= (1 << 3); // стало
+    *pClkCtrlReg |= (1 << 3);
     
     // 2. Configure the mode of the IO pin as output
     // a. Firstly we clear the 24th and 25th bits (set to zero)
