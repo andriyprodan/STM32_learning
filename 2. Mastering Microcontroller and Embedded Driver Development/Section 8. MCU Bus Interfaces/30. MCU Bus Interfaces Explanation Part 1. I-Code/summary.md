@@ -1,0 +1,2 @@
+[Figure 3. STM32F446xC/E block diagram](https://www.st.com/resource/en/datasheet/stm32f446re.pdf)  
+На цій діаграмі можна побачити структуру мікроконтролера STM32F446, і яким чином взаємодіють між собою різні модулі. Це відбувається за допомогою шин(bus).
