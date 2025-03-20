@@ -13,7 +13,7 @@ Write a program to output HSI clock on microcontroller pin and measure it using 
 Важливо розуміти, що **MCO** - це сигнал всередині мікроконтролера і потрібно за допомогою коду перенаправити цей сигнал на пін. **MCO** можна використовувати як вхідний зовнішній сигнал для інших мікроконтролерів(HSE).
 
 ### Як це робиться за допомогою коду та регістрів?
-Для плати **NUCLEO** знаходимо в мануалі регістр для активації годинників: **6. Reset and clock control(RCC) > RCC registers > 6.3.3 RCC clock configuration register(RCC_GFGR)**. Там є біти конфігурації для **MCO1**(біти 21 та 22). Залежно від значень цих бітів, приймається сигнал від різних джерел:
+Для плати **NUCLEO** знаходимо в мануалі регістр для активації годинників: **6. Reset and clock control(RCC) > RCC registers > 6.3.3 RCC clock configuration register(RCC_GFGR)**. Там є біти конфігурації для **MCO1**(біти 21 та 22). Залежно від значень цих бітів, на MCO приймається сигнал від різних джерел:
 - 00: HSI clock selected
 - 01: LSE clock selected
 - 10: HSE clock selected
